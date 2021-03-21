@@ -109,9 +109,11 @@
         this.state = '';
       },
       removeTutor(index){
-        this.$root.$data.addedTutors.pop(index)
+        this.$root.$data.addedTutors.splice(index, 1)
         if (this.$root.$data.currentID > 0)
           this.$root.$data.currentID -= 1;
+        for ( let i = 0; i < this.$root.$data.addedTutors.length; i++ )
+          this.$root.$data.addedTutors[i].id = i + 1;
       }
     }
   }
