@@ -52,7 +52,7 @@
                 <br>
                 <nav class="footer_nav">
                     <ul class="semantic_list">
-                        <li><a href="https://github.com/Jacoba1100254352/operationopportunity.audiot.info">www.github.com</a></li>
+                        <li><a href="https://github.com/Judd2000/creativeproject3.git">www.github.com</a></li>
                     </ul>
                 </nav>
             </div>
